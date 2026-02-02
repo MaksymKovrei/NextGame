@@ -1,0 +1,35 @@
+[
+  {
+    "id": "1",
+    "name": "Fortnite",
+    "genre": "Battle Royale",
+    "description": "Free-to-play battle royale game",
+    "platforms": ["PC", "PlayStation", "Xbox", "Nintendo Switch", "Mobile"],
+    "modes": ["Multiplayer", "Co-op"],
+    "epicUrl": "https://store.epicgames.com/en-US/p/fortnite",
+    "image": "https://cdn2.unrealengine.com/egs-social-fortnite-ch5s2-bp-1920x1080-1920x1080-83a7a3a8c3e5.jpg",
+    "createdAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "2",
+    "name": "The Witcher 3: Wild Hunt",
+    "genre": "RPG",
+    "description": "Action role-playing game set in a fantasy world",
+    "platforms": ["PC", "PlayStation", "Xbox", "Nintendo Switch"],
+    "modes": ["Singleplayer"],
+    "epicUrl": "https://store.epicgames.com/en-US/p/the-witcher-3-wild-hunt",
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/292030/header.jpg",
+    "createdAt": "2024-01-02T00:00:00.000Z"
+  },
+  {
+    "id": "3",
+    "name": "Rocket League",
+    "genre": "Sports",
+    "description": "Soccer with rocket-powered cars",
+    "platforms": ["PC", "PlayStation", "Xbox", "Nintendo Switch"],
+    "modes": ["Multiplayer", "Co-op"],
+    "epicUrl": "https://store.epicgames.com/en-US/p/rocket-league",
+    "image": "https://cdn2.unrealengine.com/egs-rocketleague-psyonixllc-g1a-00-1920x1080-51d939bb42f2.jpg",
+    "createdAt": "2024-01-03T00:00:00.000Z"
+  }
+]

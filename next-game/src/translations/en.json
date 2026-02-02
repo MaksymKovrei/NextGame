@@ -1,0 +1,98 @@
+{
+  "app": {
+    "title": "NEXTGAME",
+    "tagline": "What to play today?",
+    "description": "Can't decide what game to play? Let our randomizer choose for you!"
+  },
+  "nav": {
+    "home": "Home",
+    "randomizer": "Randomizer",
+    "profile": "Profile",
+    "login": "Log In",
+    "register": "Create Account",
+    "logout": "Logout"
+  },
+  "home": {
+    "randomize": "🎲 Randomize Now",
+    "browse": "Browse Games"
+  },
+  "randomizer": {
+    "title": "🎲 Game Randomizer",
+    "subtitle": "Can't decide what to play? Let us choose for you!",
+    "preferences": "Set Your Preferences",
+    "genre": "Genre",
+    "platform": "Platform",
+    "mode": "Game Mode",
+    "allGenres": "All Genres",
+    "allPlatforms": "All Platforms",
+    "allModes": "All Modes",
+    "randomize": "🎲 Randomize Game!",
+    "rolling": "Rolling...",
+    "result": "🎮 Your Random Game:",
+    "another": "🎲 Try Another Game",
+    "noGames": "No games match your filters. Try changing them!",
+    "placeholder": {
+      "title": "Ready to discover your next game?",
+      "text": "Set your preferences and click 'Randomize Game!' to get started."
+    },
+    "actions": {
+      "getEpic": "Get on Epic Games Store",
+      "saveFavorite": "💾 Save to Favorites"
+    }
+  },
+  "login": {
+    "title": "Login",
+    "subtitle": "Enter your credentials to access your account",
+    "email": "E-mail address",
+    "password": "Password",
+    "remember": "Remember me",
+    "forgot": "Forgot password?",
+    "submit": "Log In",
+    "loading": "Logging in...",
+    "or": "or",
+    "register": "Create an account",
+    "error": "Invalid email or password",
+    "quick": "Quick and easy to use",
+    "directLinks": "Direct links to stores"
+  },
+  "register": {
+    "title": "Create an account",
+    "subtitle": "Join NEXTGAME and discover your next favorite game",
+    "joinCommunity": "Join our gaming community",
+    "saveGames": "Save your favorite games",
+    "personalized": "Personalized recommendations",
+    "exclusive": "Access exclusive features",
+    "username": "Login",
+    "email": "E-mail address",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "robot": "☐ I am not a robot",
+    "captcha": "CAPTCHA",
+    "submit": "Create an account",
+    "loading": "Creating account...",
+    "login": "Log In",
+    "error": {
+      "robot": "Please confirm you are not a robot",
+      "passwordMatch": "Passwords do not match",
+      "passwordLength": "Password must be at least 6 characters long"
+    }
+  },
+  "profile": {
+    "title": "Profile",
+    "welcome": "Welcome, {{username}}!",
+    "email": "Email",
+    "role": "Role",
+    "stats": {
+      "favorites": "Favorite Games",
+      "played": "Games Played",
+      "reviews": "Reviews"
+    },
+    "favorites": "Favorite Games",
+    "emptyFavorites": "No favorite games yet. Start adding games from the randomizer!",
+    "explore": "🎲 Explore Games"
+  },
+  "footer": {
+    "protected": "This site is protected by reCAPTCHA Enterprise and the",
+    "policy": "Google Privacy Policy and Terms of Service apply"
+  }
+}

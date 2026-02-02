@@ -1,0 +1,222 @@
+.header {
+  background-color: #1a1a2e;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  text-decoration: none;
+  letter-spacing: 1px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.rightSection {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.nav {
+  display: flex;
+  gap: 2rem;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.5rem 0;
+  transition: color 0.3s;
+  position: relative;
+  font-size: 1.1rem;
+}
+
+.link:hover {
+  color: #667eea;
+}
+
+.link.active {
+  color: #667eea;
+}
+
+.link.active::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: #667eea;
+}
+
+.rightControls {
+  display: flex;
+  align-items: center;
+}
+
+.authSection {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.authButtons {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.loginButton, .registerButton {
+  padding: 0.6rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: all 0.3s;
+  border: 2px solid transparent;
+}
+
+.loginButton {
+  background: transparent;
+  color: white;
+  border: 2px solid #667eea;
+}
+
+.loginButton:hover {
+  background: rgba(102, 126, 234, 0.1);
+}
+
+.registerButton {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.registerButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+}
+
+.userSection {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.greeting {
+  color: white;
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+.userButtons {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.profileButton {
+  padding: 0.6rem 1.5rem;
+  background: #667eea;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.3s;
+}
+
+.profileButton:hover {
+  background: #5a67d8;
+}
+
+.logoutButton {
+  padding: 0.6rem 1.5rem;
+  background: transparent;
+  color: #ff6b6b;
+  border: 2px solid #ff6b6b;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+.logoutButton:hover {
+  background: rgba(255, 107, 107, 0.1);
+}
+
+@media (max-width: 1024px) {
+  .rightSection {
+    gap: 1.5rem;
+  }
+  
+  .nav {
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .rightSection {
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+  }
+  
+  .nav {
+    justify-content: center;
+    width: 100%;
+    gap: 1rem;
+  }
+  
+  .authSection {
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+  }
+  
+  .authButtons {
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .loginButton, .registerButton {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .userSection {
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+  }
+  
+  .userButtons {
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .profileButton, .logoutButton {
+    width: 100%;
+    text-align: center;
+  }
+}
