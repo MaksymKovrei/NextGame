@@ -7,8 +7,8 @@
     "platforms": ["PC", "PlayStation", "Xbox", "Nintendo Switch", "Mobile"],
     "modes": ["Multiplayer", "Co-op"],
     "epicUrl": "https://store.epicgames.com/en-US/p/fortnite",
-    "image": "https://cdn2.unrealengine.com/egs-social-fortnite-ch5s2-bp-1920x1080-1920x1080-83a7a3a8c3e5.jpg",
-    "createdAt": "2024-01-01T00:00:00.000Z"
+    "steamUrl": null,
+    "image": "https://cdn2.unrealengine.com/egs-social-fortnite-ch5s2-bp-1920x1080-1920x1080-83a7a3a8c3e5.jpg"
   },
   {
     "id": "2",
@@ -18,18 +18,150 @@
     "platforms": ["PC", "PlayStation", "Xbox", "Nintendo Switch"],
     "modes": ["Singleplayer"],
     "epicUrl": "https://store.epicgames.com/en-US/p/the-witcher-3-wild-hunt",
-    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/292030/header.jpg",
-    "createdAt": "2024-01-02T00:00:00.000Z"
+    "steamUrl": "https://store.steampowered.com/app/292030/The_Witcher_3_Wild_Hunt/",
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/292030/header.jpg"
   },
   {
     "id": "3",
     "name": "Rocket League",
     "genre": "Sports",
-    "description": "Soccer with rocket-powered cars",
+    "description": "Vehicular soccer video game",
     "platforms": ["PC", "PlayStation", "Xbox", "Nintendo Switch"],
-    "modes": ["Multiplayer", "Co-op"],
+    "modes": ["Multiplayer", "Singleplayer"],
     "epicUrl": "https://store.epicgames.com/en-US/p/rocket-league",
-    "image": "https://cdn2.unrealengine.com/egs-rocketleague-psyonixllc-g1a-00-1920x1080-51d939bb42f2.jpg",
-    "createdAt": "2024-01-03T00:00:00.000Z"
+    "steamUrl": "https://store.steampowered.com/app/252950/Rocket_League/",
+    "image": "https://cdn2.unrealengine.com/egs-rocketleague-psyonixllc-g1a-03-1920x1080-6d3d4c5d8c3e.jpg"
+  },
+  {
+    "id": "4",
+    "name": "Cyberpunk 2077",
+    "genre": "RPG",
+    "description": "Open-world action-adventure game",
+    "platforms": ["PC", "PlayStation", "Xbox"],
+    "modes": ["Singleplayer"],
+    "epicUrl": "https://store.epicgames.com/en-US/p/cyberpunk-2077",
+    "steamUrl": "https://store.steampowered.com/app/1091500/Cyberpunk_2077/",
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/header.jpg"
+  },
+  {
+    "id": "5",
+    "name": "Counter-Strike 2",
+    "genre": "FPS",
+    "description": "Tactical first-person shooter",
+    "platforms": ["PC"],
+    "modes": ["Multiplayer"],
+    "epicUrl": null,
+    "steamUrl": "https://store.steampowered.com/app/730/CounterStrike_2/",
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/730/header.jpg"
+  },
+  {
+    "id": "6",
+    "name": "Grand Theft Auto V",
+    "genre": "Action",
+    "description": "Open world action-adventure game",
+    "platforms": ["PC", "PlayStation", "Xbox"],
+    "modes": ["Singleplayer", "Multiplayer"],
+    "epicUrl": "https://store.epicgames.com/en-US/p/grand-theft-auto-v",
+    "steamUrl": "https://store.steampowered.com/app/271590/Grand_Theft_Auto_V/",
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/271590/header.jpg"
+  },
+  {
+    "id": "7",
+    "name": "Minecraft",
+    "genre": "Sandbox",
+    "description": "Sandbox game about placing blocks and going on adventures",
+    "platforms": ["PC", "PlayStation", "Xbox", "Nintendo Switch", "Mobile"],
+    "modes": ["Singleplayer", "Multiplayer"],
+    "epicUrl": null,
+    "steamUrl": null,
+    "image": "https://www.minecraft.net/content/dam/games/minecraft/marketplace/mediablock-square-img/UpdatedKeyArt_Thumbnail.jpg"
+  },
+  {
+    "id": "8",
+    "name": "Elden Ring",
+    "genre": "RPG",
+    "description": "Action role-playing game in a dark fantasy world",
+    "platforms": ["PC", "PlayStation", "Xbox"],
+    "modes": ["Singleplayer", "Multiplayer"],
+    "epicUrl": null,
+    "steamUrl": "https://store.steampowered.com/app/1245620/ELDEN_RING/",
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/header.jpg"
+  },
+  {
+    "id": "9",
+    "name": "Red Dead Redemption 2",
+    "genre": "Action",
+    "description": "Epic tale of life in America's unforgiving heartland",
+    "platforms": ["PC", "PlayStation", "Xbox"],
+    "modes": ["Singleplayer", "Multiplayer"],
+    "epicUrl": "https://store.epicgames.com/en-US/p/red-dead-redemption-2",
+    "steamUrl": "https://store.steampowered.com/app/1174180/Red_Dead_Redemption_2/",
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1174180/header.jpg"
+  },
+  {
+    "id": "10",
+    "name": "Apex Legends",
+    "genre": "Battle Royale",
+    "description": "Free-to-play hero shooter battle royale",
+    "platforms": ["PC", "PlayStation", "Xbox", "Nintendo Switch"],
+    "modes": ["Multiplayer"],
+    "epicUrl": null,
+    "steamUrl": "https://store.steampowered.com/app/1172470/Apex_Legends/",
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1172470/header.jpg"
+  },
+  {
+    "id": "11",
+    "name": "Baldur's Gate 3",
+    "genre": "RPG",
+    "description": "Role-playing game based on Dungeons & Dragons",
+    "platforms": ["PC", "PlayStation", "Xbox"],
+    "modes": ["Singleplayer", "Co-op"],
+    "epicUrl": null,
+    "steamUrl": "https://store.steampowered.com/app/1086940/Baldurs_Gate_3/",
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1086940/header.jpg"
+  },
+  {
+    "id": "12",
+    "name": "Valorant",
+    "genre": "FPS",
+    "description": "Tactical 5v5 character-based shooter",
+    "platforms": ["PC"],
+    "modes": ["Multiplayer"],
+    "epicUrl": null,
+    "steamUrl": null,
+    "image": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt5c6a22f65865e350/5eb26f133a6e046318dd6019/V_AGENTS_587x900_Jett.png"
+  },
+  {
+    "id": "13",
+    "name": "Stardew Valley",
+    "genre": "Simulation",
+    "description": "Farm simulation role-playing game",
+    "platforms": ["PC", "PlayStation", "Xbox", "Nintendo Switch", "Mobile"],
+    "modes": ["Singleplayer", "Co-op"],
+    "epicUrl": "https://store.epicgames.com/en-US/p/stardew-valley",
+    "steamUrl": "https://store.steampowered.com/app/413150/Stardew_Valley/",
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/413150/header.jpg"
+  },
+  {
+    "id": "14",
+    "name": "Hades",
+    "genre": "Roguelike",
+    "description": "Rogue-like dungeon crawler",
+    "platforms": ["PC", "PlayStation", "Xbox", "Nintendo Switch"],
+    "modes": ["Singleplayer"],
+    "epicUrl": "https://store.epicgames.com/en-US/p/hades",
+    "steamUrl": "https://store.steampowered.com/app/1145360/Hades/",
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1145360/header.jpg"
+  },
+  {
+    "id": "15",
+    "name": "Among Us",
+    "genre": "Party",
+    "description": "Online multiplayer social deduction game",
+    "platforms": ["PC", "PlayStation", "Xbox", "Nintendo Switch", "Mobile"],
+    "modes": ["Multiplayer"],
+    "epicUrl": "https://store.epicgames.com/en-US/p/among-us",
+    "steamUrl": "https://store.steampowered.com/app/945360/Among_Us/",
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/945360/header.jpg"
   }
 ]

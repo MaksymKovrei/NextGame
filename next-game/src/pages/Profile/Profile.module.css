@@ -11,6 +11,14 @@
   margin-bottom: 2rem;
   color: white;
 }
+.error {
+    background-color: rgba(220, 38, 38, 0.1);
+    color: #ef4444;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    border: 1px solid rgba(220, 38, 38, 0.2);
+}
 
 .profileHeader h1 {
   font-size: 2.5rem;
